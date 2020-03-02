@@ -1,0 +1,92 @@
+1.
+	>>>print("I want to be a devops engineer")
+	>>>print ("My opinion the python curriculum is easy to follow")
+
+
+2.
+	>>>student_1: Gin
+	>>>student_2: Ashari
+	>>>student_3: Reza
+	>>>print ("Good Morning", student_1)
+	>>>print ("Good Morning", student_2)
+	>>>print ("Good Morning", student_3)
+	
+3.
+	>>>from dateutil.relativedelta import relativedelta
+	>>>from datetime import timedelta
+	>>>from datetime import datetime
+	>>>john = datetime(2012, 7, 24)
+	>>>now = datetime (2020, 2, 14)
+	>>>john_2020 = datetime (2020, 7, 24)
+	>>>usia = relativedelta(now, john)
+	>>>usia 
+	>>>relativedelta(years=+7, months=+6, days=+22)
+	
+	>>>print ("usia John saat ini adalah", usia.years, "tahun", usia.months, "bulan", usia.days, "hari" )
+	>>>usia John saat ini adalah 7 tahun 6 bulan 21 hari
+
+     hari
+	>>>now - john
+	>>>datetime.timedelta(days=2762)
+	
+	>>>tahun = usia.years * 365
+	>>>bulan = usia.months * 31
+	>>>hari = usia.days
+	>>>total = tahun + bulan + hari
+	>>>print (total, "hari")
+	>>>2762 hari
+	
+     minutes
+	>>>menit = total * 1440
+	>>>3977280 menit
+	 
+     seconds
+	>>>detik = menit * 60
+	>>>238636800 detik
+
+	>>>from dateutil.relativedelta import relativedelta
+	>>>from datetime import timedelta
+	>>>from datetime import datetime
+	>>>now = datetime (2020, 2, 14)
+	>>>ulang_tahun = datetime (2020, 7, 24)
+	>>>ulang_tahun - now
+	>>>datetime.timedelta(days=161)
+	
+4.
+	>>> a = ["pergi,kerja , mandi, makan, test python, belajar, pulang, belajar, tidur, istirahat"]
+	>>> for x in reversed (a):
+	...   print(x)
+	...
+	>>>pergi,kerja , mandi, makan, test python, belajar, pulang, belajar, tidur, istirahat
+	
+5.
+	>>>from datetime import time
+	>>>runner = 25
+	>>>single_trip = 15
+	>>>waktu = single_trip / runner
+	>>>jam = waktu * 60 // 1
+	>>>istirahat = 36 // 15
+	>>>conversi = 1000
+	>>>detik = 60
+
+
+	-----------------------------------------------------------------
+	>>>print ("kecepatan= 25KM/Jam")
+	>>>print ("single trip = 15KM")
+	>>>print ("\n")
+	>>>print ("How many drink he takes for 15 km ?")
+	>>>print ("36 menit : 15 menit")
+	>>>print (istirahat, "kali")
+	------------------------------------------------------------------
+	>>>print ("How many hour and minutes to take for 15 km?")
+	>>>print ("waktu = kecepatan / single trip ")
+	>>>print (jam, "menit")
+	>>>print ("single trip = 15KM/36 menit")
+	-------------------------------------------------------------------
+	>>>print ("run at 08.00 am, what time he will arrive ?")
+	>>>print ("08.36 am")
+	--------------------------------------------------------------------
+	>>>print ("How you calculate his speed to meters/seconds ?")
+	>>>meter= single_trip * conversi
+	>>>kon = jam * detik
+	>>>print ("konversi nya adalah" , meter,"meter/", kon,"detik")
