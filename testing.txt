@@ -1,1 +1,3 @@
 mecoba push dari local ke github
+
+ini adalah percobaan git .
