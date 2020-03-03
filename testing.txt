@@ -9,9 +9,7 @@ DNS biznet
 
 
 import csv
-import json
 import yaml
 
 csvFilePath = 'inventory.csv'
-jsonFilePath = ‘inventory.json’
 yamlFilePath = 'inventory.yaml'
