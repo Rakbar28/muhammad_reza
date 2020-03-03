@@ -1,3 +1,8 @@
 mecoba push dari local ke github
 
 ini adalah percobaan git .
+
+DNS biznet
+203.142.82.222
+203.142.24.222
+
