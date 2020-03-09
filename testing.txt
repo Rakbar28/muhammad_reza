@@ -6,7 +6,11 @@ DNS biznet
 203.142.82.222
 203.142.24.222
 
-
+#tulis kedalam file csv
+with open(csvFilePath,'w') as tulis_file:
+tulis_file_csv = csv.DictWriter(tulis_file, header)
+tulis_file_csv.writeheader()
+tulis_file_csv.writerows(row)
 
 import csv
 import yaml
@@ -15,3 +19,9 @@ csvFilePath = 'inventory.csv'
 yamlFilePath = 'inventory.yaml'
 
 testing cherry pick 2020-03-09
+
+print ("\n")
+print ("-------------------------------------------------------------------------------------------")
+print ("Jawaban nomor 2 ")
+print ("-------------------------------------------------------------------------------------------")
+print ("\n")
