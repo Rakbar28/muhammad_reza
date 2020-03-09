@@ -2,16 +2,16 @@ mecoba push dari local ke github
 
 ini adalah percobaan git .
 
-DNS biznet
 203.142.82.222
 203.142.24.222
-
+ini adalah dns
 
 
 import csv
 import yaml
 
-csvFilePath = 'inventory.csv'
 yamlFilePath = 'inventory.yaml'
 
 testing cherry pick 2020-03-09
+
+latihan membuat 3 branch github
