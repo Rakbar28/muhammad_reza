@@ -4,8 +4,15 @@ ini adalah percobaan git .
 
 203.142.82.222
 203.142.24.222
+
 ini adalah dns
 
+
+#tulis kedalam file csv
+with open(csvFilePath,'w') as tulis_file:
+tulis_file_csv = csv.DictWriter(tulis_file, header)
+tulis_file_csv.writeheader()
+tulis_file_csv.writerows(row)
 
 import csv
 import yaml
@@ -14,4 +21,8 @@ yamlFilePath = 'inventory.yaml'
 
 testing cherry pick 2020-03-09
 
-latihan membuat 3 branch github
+print ("\n")
+print ("-------------------------------------------------------------------------------------------")
+print ("Jawaban nomor 2 ")
+print ("-------------------------------------------------------------------------------------------")
+print ("\n")
