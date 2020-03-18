@@ -9,11 +9,11 @@ csvFilePath = 'inventory.csv'
 jsonFilePath = 'inventory.json'
 yamlFilePath = 'inventory.yaml'
 
-header = ["DC","Type","Hostname","IP","IPMI","Subnet","Gateway","Vlan","Purpose"]
-rows=[{"DC":"DC3 (Biznet)","Type":"Baremetal","Hostname":"BG1-3-R94U32-2U2N-A","IP":"172.19.74.66","IPMI":"172.19.251.10","Subnet":"172.19.74.64/27","Gateway":"172.19.74.65","Vlan":"203","Purpose":"Ceph Cluster OSD"},
-     {"DC":"DC3 (Biznet)","Type":"Baremetal","Hostname":"BG1-3-R94U32-2U2N-B","IP":"172.19.74.67","IPMI":"172.19.251.11","Subnet":"172.19.74.64/27","Gateway":"172.19.74.65","Vlan":"203","Purpose":"Ceph Cluster OSD"},
-     {"DC":"DC3 (Biznet)","Type":"Baremetal","Hostname":"BG1-3-R94U34-2U2N-A","IP":"172.19.74.68","IPMI":"172.19.251.12","Subnet":"172.19.74.64/27","Gateway":"172.19.74.65","Vlan":"203","Purpose":"Ceph Cluster OSD"},
-     {"DC":"DC3 (Biznet)","Type":"Baremetal","Hostname":"BG1-3-R94U34-2U2N-B","IP":"172.19.74.69","IPMI":"172.19.251.13","Subnet":"172.19.74.64/27","Gateway":"172.19.74.65","Vlan":"203","Purpose":"Ceph Cluster OSD"},
+header = ["DC"]
+rows=[{"DC":"DC3" },
+     {"DC":"DC3" }    
+     {"DC":"DC3" },
+     {"DC":"DC3" },
 
       ]
 print ("\n")
